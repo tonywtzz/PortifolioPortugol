@@ -1,0 +1,15 @@
+programa
+{
+	funcao inicio ()
+	{
+	inteiro hora
+	escreva("digite a hora: ")
+	leia(hora)
+	limpa()
+	se (hora>=6 e hora<=18)
+	escreva("esta de dia")
+	senao
+	escreva("esta de noite")
+		
+	}
+}
