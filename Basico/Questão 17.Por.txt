@@ -1,0 +1,21 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro nota1, nota2, nota3, nota4, nota5, media
+		escreva("digite 1° nota: ")
+		leia(nota1)
+		escreva("digite sua 2° nota: ")
+		leia(nota2)
+		escreva("digite sua 3° nota: ")
+		leia(nota3)
+		escreva("digite sua 4° nota: ")
+		leia(nota4)
+		escreva("digite sua 5° nota: ")
+		leia(nota5)
+		  
+		  media = nota1 + nota2 + nota3 + nota4 + nota5 %5
+		  escreva("sua media e ",media)
+	}
+	
+}

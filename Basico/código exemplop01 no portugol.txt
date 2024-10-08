@@ -1,0 +1,19 @@
+programa
+{
+	funcao inicio ()
+	{
+	logico condicao = falso
+	logico condicao2 = verdadeiro
+	cadeia alternativa
+	
+	escreva("digite F para falso ou V para verdadeiro: ")
+	leia(alternativa)
+	se (alternativa == "V" ou alternativa =="v")
+	
+	escreva(condicao2)
+	
+	senao se (alternativa == "F" ou alternativa =="f")
+	 escreva(condicao)
+		
+	}
+}
